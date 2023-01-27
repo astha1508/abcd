@@ -1,0 +1,10 @@
+#'sum,mean
+#'@export
+#'@param x numeric
+
+abc <- function(x){
+  data.frame(
+    sum = sum(x),
+    mean = mean(x)
+  )
+}
